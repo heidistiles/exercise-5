@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.ends {
+    margin: 20px auto;
+}
+
+footer .smalltext {
+    color: rgb(150, 150, 150);
+    font-size: 12pt;
+}
+
+.centered {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.sidebyside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comparison {
+    max-width: 800px;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 1px;
+    box-shadow: 0px 0px 10px 1px rgb(150, 150, 150);
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+.bigtext {
+    font-size: 42pt;
+}
+
+.mediumtext {
+    font-size: 24pt;
+}
+
+.smalltext {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.list li {
+    margin: 0px 15px 20px 15px;
+}
+
+.aligntops {
+    margin-top: 10px;
+}
+
+.alignsides {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.spacing {
+    margin: 10px;
+    padding: 5px;
+}
+
+.green {
+    background-color: #04ddb2;
+}
+
+.darkgray {
+    background-color: #333;
+    color: white;
+}
+
+.lightgray {
+    background-color: #767676;
+    color: white;
+}
+
+.white {
+    border: black solid 1px;
+}
